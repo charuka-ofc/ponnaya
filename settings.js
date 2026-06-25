@@ -50,7 +50,7 @@ CHAT_BOT: process.env.CHAT_BOT === undefined ?"false" : process.env.CHAT_BOT,
 //[7]--------------------Enter You Group Jid------------------------------------------------------------------------------------------------
 MV_JID: process.env.MV_JID === undefined ?"" : process.env.MV_JID,
 //------------------------------------------------------------------------------------------------------------------------------------------
-PORT: process.env.PORT === undefined ? "7860" : process.env.PORT,
+PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 SUDO: process.env.SUDO === undefined ? '94775228949,94710167783' : process.env.SUDO,
 SESSION_NAME: process.env.SESSION_NAME === undefined ? "auth_info_baileys" : process.env.SESSION_NAME,
 CHAT_BOT: process.env.CHAT_BOT === undefined ? 'false' : process.env.CHAT_BOT, 
