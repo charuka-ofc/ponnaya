@@ -16,7 +16,7 @@ RUN npm install && npm install -g qrcode-terminal pm2
 
 COPY . .
 
-EXPOSE 7860 
+EXPOSE 8000
 
 # ❌ පරණ පේළිය: CMD ["npm", "start"]
 # ✔️ වෙනස් කරන්න ඕන අලුත් පේළිය:
